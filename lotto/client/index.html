@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>우아한로또코스</title>
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>우아한로또코스</h1>
+      <form id="lotto-store">
+        <div>
+          <label for="input-lotto-round">로또 회차</label>
+          <input type="number" id="input-lotto-round">회
+        </div>
+        <div>
+          <label for="input-cash-amount">얼마치를 사시겠습니까?</label>
+          <input type="number" id="input-cash-amount">원
+        </div>
+        <button type="submit">구매</button>
+      </form>
+      <div id="lotto-result">
+        <div class="lotto">
+          <div class="lotto-number winning"></div>
+          <div class="lotto-number winning"></div>
+          <div class="lotto-number winning"></div>
+          <div class="lotto-number winning"></div>
+          <div class="lotto-number winning"></div>
+          <div class="lotto-number winning"></div>
+          <div class="lotto-number winning bonus-number"></div>
+        </div>
+      </div>
+      <div class="lotto-status">
+        <h3>구매한 로또는 다음과 같습니다. 총 <span id="lotto-quantity">n</span>개</h3>
+      </div>
+      <div id="lottos">
+        <div class="lotto">
+          <div class="lotto-number"></div>
+          <div class="lotto-number"></div>
+          <div class="lotto-number"></div>
+          <div class="lotto-number"></div>
+          <div class="lotto-number"></div>
+          <div class="lotto-number"></div>
+        </div>
+      </div>
+    </div>
+    <script>
+
+    </script>
+  </body>
+</html>
